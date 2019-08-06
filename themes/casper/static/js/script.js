@@ -176,6 +176,13 @@ function startGUI () {
     captureFolder.add(config, 'TRANSPARENT').name('transparent');
     captureFolder.add({ fun: captureScreenshot }, 'fun').name('take screenshot');
 
+    let github = gui.add({ fun : () => {
+        window.open('https://github.com/PavelDoGreat/WebGL-Fluid-Simulation');
+        ga('send', 'event', 'link button', 'github');
+    } }, 'fun').name('Thanks PavelDoGreat!');
+    github.__li.className = 'cr function samllFont';
+    github.__li.style.borderLeft = '1px solid #8C8C8C';
+
     gui.close();
 }
 
