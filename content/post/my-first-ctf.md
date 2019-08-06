@@ -11,7 +11,7 @@ authorbio = "Just some random thoughts."
 authorwebsite = "https://tdhttt.com/"
 +++
 
-I was very exciting when learning that there would be a [CTF](http://cyberctf.ics.uci.edu/) (Capture The Flag) around the campus. Upon the event went live, I registered and started to look at the challenges.
+I was very excited when learning that there would be a [CTF](http://cyberctf.ics.uci.edu/) (Capture The Flag) around the campus. Upon the event went live, I registered and started to look at the challenges.
 
 Oh, decoding binaries given some instruction opcode? Easy. Then there appears some -,+], which turns out to be an esoteric programming language called well, Brainfuck. Grab a compiler, and there you go.
 
