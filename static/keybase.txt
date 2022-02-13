@@ -1,0 +1,70 @@
+==================================================================
+https://keybase.io/tdhttt
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tdhttt.com
+  * I am tdhttt (https://keybase.io/tdhttt) on keybase.
+  * I have a public key with fingerprint 0373 F0DE CAD0 9A54 86B8  B174 B8CA 5025 9295 1DDF
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101db4924ec0fc1dc5bf77295e4a9def4e0d7eeb3c234fdc7242c8de71717cfd1470a",
+      "fingerprint": "0373f0decad09a5486b8b174b8ca502592951ddf",
+      "host": "keybase.io",
+      "key_id": "b8ca502592951ddf",
+      "kid": "0101db4924ec0fc1dc5bf77295e4a9def4e0d7eeb3c234fdc7242c8de71717cfd1470a",
+      "uid": "87ea87f235f84e6c112fa92eee122119",
+      "username": "tdhttt"
+    },
+    "service": {
+      "hostname": "tdhttt.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1644735951,
+  "expire_in": 157680000,
+  "prev": "2c72343d429ea7169ee043f30503a15433889fb080a2ceb388bda69630d2b0f4",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUm1sFEUYvgpaOdpKIFyDKa1dqATb0p2Pvd09g01BK0UTqlbTnAnH7s5su2m5
+PW63LU09IsEixCYlFUwKCKhFvPNaLCRNo7lCgPCjKIW2fISAtVBAvklAyymNzjby
+w8SfzvyYzDPP87zv+2S2pE9xuVN6+8vz2rbNHUk5cUN1qc923mviVJM0cr4mroZO
+HrSWUMsO1BiE83E84AFRsQwx1XhdA0QTVF0UoSxQrMiE6pjyRKRURRpEWCeaCDHU
+JEJFwLamE4BFXuEKON0IVtFwKGwEbccWiUjnCdUUwsuKgCWvKqlAxKqkKQIPBZkV
+AIToTFhtWo6CNacqFl1kmAxjl8Bke//B/5/7rpu0k0SqSKIOkaBLmHo1AKCuyJBS
+CiAEQHaIFg0HldWUsW1Sbds2FyngGFZvaNSJ1ZnjX++LNHM104XCpm1qZi3DGRqy
+fI7Obgw5xAaqBv6xCKhGkLAMmaKehi3DDHI+wJiabTiewIuxiASWQgFH14aMMA0Y
+DkMQvRLPllOH1jNLyCZFGBEM5QqqiMArU8pjpCNe4JECBIyQJMm6yku8AjWWjySp
+RPHKXsQTqPI65pyp1gRNzodZn0oV87SMqqBi14UpF3FvTjk41ZXids315E6dYt3/
+uf/U9oqNvd32k3/39FPOp3O5p814gszj0lyD++7Of3x9fAG+t/tRevdH8OuR4bJd
+no6W7xsOrtobvX9bSeRl5CTjYx8U/9gyZ2nZQHRj30TRNVQtHp7d+vGOGVYs85dB
+DM79Njqi21c2LN+Qhn7VizKyWxeCk2dnnR2SdpNVFwqzoIVHLx/qy70UWRtL/BFr
+G3x9W5Qvy1wq71HmnG88I+7PeabU33bo9hKaPJadKEcTx7NezY69NBYdjli5nle0
+9I59TWvq5rVU74yvb17R+U5J3tVHqb9fjryX3/jC5rplCwYKSft3L5eX/pTz5xsV
+vThStNJzrvR0aj6mW3v8bT2zjn51N3akcvsPD89H2hM3Jb86893u0PX1z419m79p
+5wqjq7b/9PyZ0/+6uK7ktcVdx0aaczr81uM330o2X3l+doavNd4zrWPX4a3xh8Uv
+Fh/f+2FlZtaDLV0DnSszWhbeSB2u/DThKUlN+j55u1C4dCtzP25+Xyqoyf1MG7pz
+0v25/8D40OLssgvdXzxYUtwXPHEm/k3Dl+ObDoymTSTbo+v+Bg==
+=KTlu
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tdhttt
+
+==================================================================
+
