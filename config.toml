@@ -5,7 +5,7 @@ pluralizelisttitles = false
 theme = "casper"
 paginate = 5
 DisqusShortname = "tdhttt"
-Copyright = "All rights reserved - 2019"
+Copyright = "All rights reserved - 2022"
 canonifyurls = true
 
 [params]
@@ -22,12 +22,12 @@ canonifyurls = true
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   # RSSLink = "http://feeds.feedburner.com/..."
   githubName = "TDHTTTT"
-  # twitterName = ""
+  twitterName = "tdhttt"
   # facebookName = ""
   # codepenName = ""
   linkedinName = "tdhttt"
-  # stackoverflowId = ""
-  # keybaseName = ""
+  stackoverflowId = "7327352"
+  keybaseName = "tdhttt"
   # flickrName = ""
   # instagramName = ""
   # email = ""
@@ -52,4 +52,4 @@ canonifyurls = true
   name = "About me"
   weight = -120
   identifier = "about"
-  url = "/about"
+  url = "/post/"
