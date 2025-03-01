@@ -57,6 +57,22 @@
                 z-index: 1;
             }
 
+            /* Mouse aurora light effect */
+            .mouse-aurora {
+                position: fixed;
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                background: radial-gradient(circle, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 70%);
+                pointer-events: none;
+                z-index: 2;
+                mix-blend-mode: screen;
+                filter: blur(5px);
+                transform: translate(-50%, -50%);
+                opacity: 0.8;
+                box-shadow: 0 0 30px 10px rgba(255,255,255,0.3);
+            }
+
             a {
                 text-decoration: none;
                 font-family: monospace;
@@ -118,11 +134,15 @@
             }
 
             .pointer {
-              color: black;
+              color: rgba(255, 255, 255, 0);
               font-family: helvetica;
               font-size: 22px;
               margin-top: -15px;
               text-align: center;
+              position: relative;
+              z-index: 3;
+              text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+              transition: color 0.3s ease;
             }
 
             .wheel-button, .wheel-button:visited {
@@ -261,7 +281,68 @@
     </head>
     <body>
         <canvas></canvas>
+        <div class="mouse-aurora"></div>
         <script src="/js/script.js"></script>
+        <script>
+            // Mouse aurora effect
+            document.addEventListener('DOMContentLoaded', function() {
+                const aurora = document.querySelector('.mouse-aurora');
+                const nameElement = document.querySelector('.pointer');
+                const nameRect = nameElement.getBoundingClientRect();
+                const nameCenter = {
+                    x: nameRect.left + nameRect.width / 2,
+                    y: nameRect.top + nameRect.height / 2
+                };
+                
+                document.addEventListener('mousemove', function(e) {
+                    aurora.style.left = e.clientX + 'px';
+                    aurora.style.top = e.clientY + 'px';
+                    
+                    // Calculate distance between mouse and name element
+                    const distance = Math.sqrt(
+                        Math.pow(e.clientX - nameCenter.x, 2) + 
+                        Math.pow(e.clientY - nameCenter.y, 2)
+                    );
+                    
+                    // Make name visible when mouse is close (within 150px)
+                    const proximityThreshold = 150;
+                    if (distance < proximityThreshold) {
+                        // Calculate opacity based on distance (closer = more visible)
+                        const opacity = 1 - (distance / proximityThreshold);
+                        nameElement.style.color = `rgba(255, 255, 255, ${opacity})`;
+                    } else {
+                        nameElement.style.color = 'rgba(255, 255, 255, 0)';
+                    }
+                });
+                
+                // Make the aurora pulse slightly
+                function pulseAurora() {
+                    let scale = 1;
+                    let growing = true;
+                    
+                    setInterval(() => {
+                        if (growing) {
+                            scale += 0.01;
+                            if (scale >= 1.1) growing = false;
+                        } else {
+                            scale -= 0.01;
+                            if (scale <= 0.9) growing = true;
+                        }
+                        
+                        aurora.style.transform = `translate(-50%, -50%) scale(${scale})`;
+                    }, 50);
+                }
+                
+                pulseAurora();
+                
+                // Update name position on window resize
+                window.addEventListener('resize', function() {
+                    const updatedRect = nameElement.getBoundingClientRect();
+                    nameCenter.x = updatedRect.left + updatedRect.width / 2;
+                    nameCenter.y = updatedRect.top + updatedRect.height / 2;
+                });
+            });
+        </script>
 	    <div class="mainx">
 	    <a href="#wheel" class="wheel-button">
 	        <span>+</span>
