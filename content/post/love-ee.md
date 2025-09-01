@@ -11,7 +11,7 @@ authorbio = "Just some random thoughts."
 authorwebsite = "https://tdhttt.com/"
 +++
 
-> _Author's note:_ Drafted in 2022, lightly edited and finished on **Aug 31, 2025** for clarity. Substance unchanged. I tried to not glamorize my undergraduate experience but I could be hallucinating.
+> _Author's note:_ Drafted in 2022, lightly edited and finished on **Sep 1, 2025** for clarity. Substance unchanged. I tried to not glamorize my undergraduate experience but I could be hallucinating.
 
 "Hardware invention enabled the information revolution. The internet and all the fancy applications are nothing but some byproduct of the advancement in computer chips and fiber optic cables", 18-year-old me thought wishfully, concluding that the next natural sequence in the major global transformation must be done with another dramatic hardware innovation. 
 After giving this grandiose topic a little more thought, I decided that we are limited by the way we are interacting with computers. 
