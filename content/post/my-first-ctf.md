@@ -55,7 +55,7 @@ After captured all the five flags, I suddenly came to #2 on the scoreboard. WOW.
 
 The rest of the story, well was not as thrilling. It turned out that the rest of challenge was closely related to crypto. And there was even a bunch of physical challenges, which also asks you to solve a puzzle.
 
-![](/images/ctf/ctf8.PNG)
+![](/images/ctf/ctf8.png)
 
 I was not really into solving puzzles, well that kind of puzzle. Also, I was pretty busy with my schoolwork. So, yes, I gave up at that point. But I started to wonder if every CTF has such a large portion of crypto. It was a bit **unexpected**.
 
