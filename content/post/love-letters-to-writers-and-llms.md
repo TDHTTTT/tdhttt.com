@@ -1,7 +1,7 @@
 +++
 date = "2025-12-28T19:47:24-08:00"
 draft = false
-slug = "two-love-letters"
+slug = "love-letters-to-writers-and-llms"
 tags = ["philosophy", "LLM", "AI", "writing", "meta"]
 title = "Love Letters to Writers and LLMs"
 excerpt = "It is the best time to write online.  It is the worst time to write online."
