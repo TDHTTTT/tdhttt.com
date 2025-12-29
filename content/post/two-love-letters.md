@@ -246,9 +246,6 @@ I put my final draft into my summarizer prompt for fun.
 
 
 
----
-
-
 
 [^1]: They don't have to but today's LLM behaves like this due to training data and RLHF.
 
