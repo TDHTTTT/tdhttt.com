@@ -1,7 +1,6 @@
 +++
-date = "2025-12-28T19:47:24-08:00
+date = "2025-12-28T19:47:24-08:00"
 draft = false
-image = ''
 slug = "two-love-letters"
 tags = ["philosophy", "LLM", "AI", "writing", "meta"]
 title = "Two Love Letters"
