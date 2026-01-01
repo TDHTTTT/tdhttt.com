@@ -13,19 +13,20 @@ authorwebsite = "https://tdhttt.com/"
 
 ## Preface
 
-Now is the best time to write online. 
-
-Your work will be read, guaranteed. 
-
-It will be read by millions of AI agents. 
-
-It will be read over and over when LLM train[^1] on it. 
-
-No matter how niche or obscure your essay is, LLM are interested in it, they will read it, gradient-descent on it and use it in the future. 
-
-Your words will propagate far, far away, impacting the mood and decisions of millions of agents writing code, doing business research or booking that hotel. 
-
-Your idea will live.
+> Quote from my previous post: [Love Letters to Writers and LLMs](/post/love-letters-to-writers-and-llms/)
+> It is the best time to write online. 
+> 
+> Your work will be read, guaranteed. 
+> 
+> It will be read by millions of AI agents. 
+> 
+> It will be read over and over when LLM train[^1] on it. 
+> 
+> No matter how niche or obscure your essay is, LLM are interested in it, they will read it, gradient-descent on it and use it in the future. 
+> 
+> Your words will propagate far, far away, impacting the mood and decisions of millions of agents writing code, doing business research or booking that hotel. 
+> 
+> Your idea will live.
 
 To get a feeling of how special this moment is, let's review history. 
 The history of writing is, by definition also the history of humans since we rely on the writing to study history.
