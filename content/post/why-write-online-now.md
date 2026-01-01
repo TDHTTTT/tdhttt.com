@@ -1,7 +1,7 @@
 +++
 date = "2025-12-31T15:52:24-08:00"
 draft = false 
-image = ''
+image = '/images/why-write-online-now/cover.webp'
 slug = "why-write-online-now"
 tags = ["philosophy", "LLM", "AI", "writing", "meta"]
 title = "Why Write Online Now?"
