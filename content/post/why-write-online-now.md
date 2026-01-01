@@ -1,6 +1,6 @@
 +++
 date = "2025-12-31T15:52:24-08:00"
-draft = true
+draft = false 
 image = ''
 slug = "why-write-online-now"
 tags = ["philosophy", "LLM", "AI", "writing", "meta"]
