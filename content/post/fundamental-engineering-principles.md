@@ -1,6 +1,6 @@
 +++
 date = "2026-01-13T23:11:24-08:00"
-draft = true
+draft = false
 image = ''
 slug = "fundamental-engineering-principles"
 tags = ["philosophy", "LLM", "AI", "engineering", "education"]
