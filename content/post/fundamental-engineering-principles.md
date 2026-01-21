@@ -1,6 +1,6 @@
 +++
 date = "2026-01-13T23:11:24-08:00"
-draft = false
+draft = true
 image = ''
 slug = "fundamental-engineering-principles"
 tags = ["philosophy", "LLM", "AI", "engineering", "education"]
@@ -110,14 +110,14 @@ You can just throw away thousands of lines of code and spin up new agents to wor
 Granted, for many engineering projects, a vanilla good-enough solution just works.
 But what's the fun in that?
 I challenge you, the engineer in you, to push the boundaries of what's possible.
-Work on ambitious projects: invent a new programming language, create a new OS, or build and experiment with a new LLM architecture. 
+Work on ambitious projects: invent a new programming language, create a new browser or even OS, or build and experiment with a new LLM architecture. 
 The more ambitious you are, the farther away from the training data distribution you and your agent will be.
 You and your coding agent may struggle.
 That's how you know you are on the right track to doing great things.
 
 Unleash your mind. 
 Think outside the box. 
-Think about extreme cases and reason about how they change your system design.
+Think about extreme cases and edge cases then reason about how they change your system design.
 
 ### Keep Track of Things
 
